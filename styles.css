@@ -1,0 +1,36 @@
+#todoList {
+  width: 300px;
+  margin: auto;
+}
+
+input,
+#addTaskButton {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.deleteButton {
+  color: red;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
